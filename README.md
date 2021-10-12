@@ -47,7 +47,7 @@ The environment is considered solved, when the average (over 100 episodes) of th
 4. Place the file in the DRLND GitHub repository, in the `p3_collab-compet/` folder, and unzip (or decompress) the file. 
 
 
-### Run the algorithm
+### Running the algorithm
 In order to execute the code, different files are provided:
 
 1. Inside the "src" folder there are different .py functions:
@@ -58,4 +58,20 @@ In order to execute the code, different files are provided:
 	*  utils.py : Script to define the different hyperparameters and parameters required to solve the environment
 
 2. In the root foder: 
-	* Tennis.ipynb : Contains the code in charge of train the agents, save models, save results and allow us to visualise the performance of the agents using Train_mode=False.
+	* Tennis.ipynb : It contains the code in charge of training the agents, saving the models, saving the results and allowing us to visualize the performance of the agents using Train_mode=False.
+
+So, to start training the models, run the Tennis.ipynb notebook cells to train an agent to solve our required task of playing tennis.
+
+### Results
+The results presented in the form of a graph obtained during the training, together with a .txt file where the score is stored, are located in the results folder. 
+
+Two different approaches have been taken:
+1. Obtain an average target score of 0.5 over the last 100 episodes. This result is collected in scores_final_0.5.png
+
+2). Obtain an average target score of 2.0 over the last 100 episodes. This result is collected in scores_final_2.0.png
+
+
+### Models
+The different models for each approach are stored in the models folder.
+
+
