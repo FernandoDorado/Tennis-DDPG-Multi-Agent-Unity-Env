@@ -74,4 +74,5 @@ Two different approaches have been taken:
 ### Models
 The different models for each approach are stored in the models folder.
 
-
+# Additional information
+- [Project Report](./Report.md)
