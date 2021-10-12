@@ -45,3 +45,17 @@ The environment is considered solved, when the average (over 100 episodes) of th
     (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux_NoVis.zip) to obtain the "headless" version of the environment.  You will **not** be able to watch the agent without enabling a virtual screen, but you will be able to train the agent.  (_To watch the agent, you should follow the instructions to [enable a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md), and then download the environment for the **Linux** operating system above._)
 
 4. Place the file in the DRLND GitHub repository, in the `p3_collab-compet/` folder, and unzip (or decompress) the file. 
+
+
+### Run the algorithm
+In order to execute the code, different files are provided:
+
+1. Inside the "src" folder there are different .py functions:
+	*  agentDDPG.py : Implementation of DDPG algorithm
+	*  learn.py : Unity ML-Agents Toolkit (from Unity)
+	*  network.py : Contains the implementation of the Actor/Critic neural networks
+	*  setup.py : Script to install the unity dependencies
+	*  utils.py : Script to define the different hyperparameters and parameters required to solve the environment
+
+2. In the root foder: 
+	* Tennis.ipynb : Contains the code in charge of train the agents, save models, save results and allow us to visualise the performance of the agents using Train_mode=False.
