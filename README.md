@@ -68,7 +68,7 @@ The results presented in the form of a graph obtained during the training, toget
 Two different approaches have been taken:
 1. Obtain an average target score of 0.5 over the last 100 episodes. This result is collected in scores_final_0.5.png
 
-2). Obtain an average target score of 2.0 over the last 100 episodes. This result is collected in scores_final_2.0.png
+2. Obtain an average target score of 2.0 over the last 100 episodes. This result is collected in scores_final_2.0.png
 
 
 ### Models
